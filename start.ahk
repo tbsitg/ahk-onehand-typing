@@ -13,8 +13,8 @@ global prevStatus := 0
 
 global remainder :="R E M A P P I N G    E N A B L E D"
 global mirror_remainder :="R E M A P P E D"
-global mirrorMsg := " 0       9  8  7  6`n[TAB]   P  M  I  L`n[BSP]    O  H  B  J`n[SHIFT]  N  Y  K  U"
-global alterMsg := " 0       9  8  7  6`n[TAB]   (   )   [   ]`n[BSP]     {   }   .   '`n[SHIFT]   /   \   ,   """
+global mirrorMsg := " 0        9    8   7   6`n[TAB]   P   M   I   L`n[BSP]    O   H   B   J`n[SHIFT]  N   Y   K   U"
+global alterMsg := " *        ?    ""    :     `;`n[TAB]   (    )    [    ]`n[BSP]     {    }    .    '`n[SHIFT]   &   ,    /    \"
 
        
 ~^LShift::
@@ -56,11 +56,17 @@ v::u
 *a::Send, {{}
 *s::Send, {}}
 *d::Send, {.}
-*f::Send, {'}
-*z::Send, {/}
-*x::Send, {\}
-*c::Send, {,}
-*v::Send, {"}
+*f::Send, {,}
+*z::Send, {&}
+*x::Send, {'}
+*c::Send, {/}
+*v::Send, {\}
+
+*`::Send, {*}
+*1::Send, {?}
+*2::Send, {"}
+*3::Send, {:}
+*4::Send, {;}
 
 #if
 
@@ -69,6 +75,14 @@ v::u
 LShift::
     ToggleGlobal()
 return
+#if
+
+#if ENABLED&(currentStatus!=2)
+^2::
+    SendInput, {LControl Up}{Enter}
+return
+^3::^Enter
+^1::^+Enter
 #if
 
 #if ENABLED
@@ -88,11 +102,6 @@ MButton::
 return
 
 *CapsLock::BackSpace
-^2::
-    SendInput, {LControl Up}{Enter}
-return
-^3::^Enter
-^1::^+Enter
 
 *LAlt::
     basicPressed := True
