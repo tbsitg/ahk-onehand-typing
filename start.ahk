@@ -72,7 +72,7 @@ v::u
 
 #if specialPressed
 
-LShift::
+~LShift::
     ToggleGlobal()
 return
 #if
