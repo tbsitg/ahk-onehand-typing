@@ -14,7 +14,7 @@ global prevStatus := 0
 global remainder :="R E M A P P I N G    E N A B L E D"
 global mirror_remainder :="R E M A P P E D"
 global mirrorMsg := " 0        9    8   7   6`n[TAB]   P   M   I   L`n[BSP]    O   H   B   J`n[SHIFT]  N   Y   K   U"
-global alterMsg := " *        ?    ""    :     `;`n[TAB]   (    )    [    ]`n[BSP]     {    }    .    '`n[SHIFT]   &   ,    /    \"
+global alterMsg := " *        ?    ""    :     `;`n[TAB]   (    )    [    ]`n[BSP]     {    }     .    ,`n[SHIFT]   &   '    /    \"
 
        
 ~^LShift::
