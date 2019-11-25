@@ -5,9 +5,9 @@ The script is my personal solution to my personal problem. If you find it useful
 ## Problem
 
 There are limited number of objects that a person can simultaneous keep in attention at a moment, and exactly one object that can be focused on.
-It is very common case when you periodically need to refocus to API, IDE, keyboard, mouse etc. each time losing some attention and getting tired of finding the place you switched from.
+That's why it is very common case when you periodically need to refocus between keyboard and API, IDE, status bar, mouse etc. each time losing spending attention and getting tired of finding the place you switched from.
 Even skilled blind typing sometimes requires a person to take a look on keyboard to press some key, especially when it needs to input some special symbol or even backspace.
-Also sometimes it is more comfortable and faster to switch windows or make text selections with mouse rather than keyboard.
+Also sometimes it is more comfortable and faster to switch between programs or make text selections with mouse rather than keyboard.
 Therefore it could be nice if we have an opportunity to manipulate keyboard with one hand and absolutely not looking at it.
 
 ## Solution
