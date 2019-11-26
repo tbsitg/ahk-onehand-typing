@@ -45,7 +45,7 @@ Other keys were placed due to their use rate or other considerations:
 ## How to use
 
 1. download and install autohotkey from [AHK Home Page](https://www.autohotkey.com)
-2. start or compile [one-hand-typing.ahk](start.ahk)
+2. start or compile [one-hand-typing.ahk](one-hand-typing.ahk)
 
 ## Special keys
 
