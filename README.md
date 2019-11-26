@@ -1,5 +1,7 @@
 # ahk-onehand-typing
 
+![layout preview unavailable](./layout.PNG)
+
 The script is my personal solution to my personal problem. If you find it useful you are welcome to use it or collaborate on.
 
 ## Problem
